@@ -12,13 +12,13 @@
 <body>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <button type="button" class="btn btn-outline-primary" onclick="pressSubmitNew()">Submit New</button>
     <script src="https://cdn.jsdelivr.net/npm/public-google-sheets-parser@latest"></script>
     <script>
         const parser = new PublicGoogleSheetsParser('1TnihbKuZW7vFDJIqyAnUuWBHTB1FmWHeucAkOVXqtBQ')
         parser.parse().then(data => console.log(data))
     </script>
     <h1>Welcome!</h1>
+    <button type="button" class="btn btn-outline-primary" onclick="rerouting()">Submit New</button>
     
 </body>
 

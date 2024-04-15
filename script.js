@@ -7,6 +7,7 @@ function init(){
     //document.write('it work');
 }
 
-function pressSubmitNew(){
-    
+function rerouting(url){
+    console.log('ye');
+    window.location.href = url;
 }
